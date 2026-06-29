@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nutricionista Maiara Lima | Consultoria Premium</title>
+<meta content="Atendimento nutricional de alta performance e excelência. Estratégias personalizadas para emagrecimento e nutrição esportiva com a Dra. Maiara Lima." name="description"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Newsreader (Serif) & Hanken Grotesk (Sans) -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&amp;family=Newsreader:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-secondary-container": "#5e6572",
+                "primary-fixed": "#e4e2e1",
+                "on-error": "#ffffff",
+                "surface-bright": "#f9f9f9",
+                "secondary": "#585f6c",
+                "inverse-on-surface": "#f0f1f1",
+                "surface-dim": "#dadada",
+                "surface-container-high": "#e8e8e8",
+                "tertiary-fixed": "#e5e2e1",
+                "tertiary": "#191818",
+                "outline": "#747878",
+                "error": "#ba1a1a",
+                "secondary-container": "#dce2f3",
+                "on-tertiary": "#ffffff",
+                "surface-container-highest": "#e2e2e2",
+                "on-tertiary-fixed-variant": "#474646",
+                "on-secondary-fixed-variant": "#404754",
+                "on-tertiary-container": "#969494",
+                "surface-container": "#eeeeee",
+                "inverse-surface": "#2f3131",
+                "background": "#f9f9f9",
+                "tertiary-container": "#2d2d2d",
+                "on-primary-container": "#959494",
+                "secondary-fixed": "#dce2f3",
+                "secondary-fixed-dim": "#c0c7d6",
+                "on-surface-variant": "#444748",
+                "on-secondary": "#ffffff",
+                "surface-container-lowest": "#ffffff",
+                "on-tertiary-fixed": "#1c1b1b",
+                "surface": "#f9f9f9",
+                "on-error-container": "#93000a",
+                "primary-container": "#2d2d2d",
+                "tertiary-fixed-dim": "#c8c6c5",
+                "surface-container-low": "#f3f3f4",
+                "primary": "#181919",
+                "on-secondary-fixed": "#151c27",
+                "outline-variant": "#c4c7c7",
+                "error-container": "#ffdad6",
+                "on-primary-fixed-variant": "#474747",
+                "primary-fixed-dim": "#c8c6c6",
+                "on-primary": "#ffffff",
+                "surface-variant": "#e2e2e2",
+                "on-surface": "#1a1c1c",
+                "inverse-primary": "#c8c6c6",
+                "on-primary-fixed": "#1b1c1c",
+                "surface-tint": "#5f5e5e",
+                "on-background": "#1a1c1c"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "container-max": "1200px",
+                "gutter": "24px",
+                "margin-desktop": "64px",
+                "base": "8px",
+                "margin-mobile": "20px",
+                "section-gap": "128px"
+            },
+            "fontFamily": {
+                "body-md": ["Hanken Grotesk"],
+                "label-sm": ["Hanken Grotesk"],
+                "label-md": ["Hanken Grotesk"],
+                "body-lg": ["Hanken Grotesk"],
+                "headline-md": ["Newsreader"],
+                "headline-lg": ["Newsreader"],
+                "display-lg": ["Newsreader"],
+                "display-lg-mobile": ["Newsreader"]
+            },
+            "fontSize": {
+                "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "label-sm": ["12px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "headline-md": ["24px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        line-height: 1;
+      }
+      .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+      .fade-in.visible { opacity: 1; transform: translateY(0); }
+      
+      /* Focus interaction for minimalist inputs */
+      .minimalist-input:focus {
+        border-bottom-color: #111111;
+        outline: none;
+      }
+    </style>
+<!-- Schema.json -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Nutritionist",
+      "name": "Dra. Maiara Lima",
+      "image": "placeholder",
+      "telephone": "+55-48-99117-6446",
+      "url": "https://www.maiaralimanutri.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Florianópolis",
+        "addressRegion": "SC",
+        "addressCountry": "BR"
+      },
+      "priceRange": "$$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md selection:bg-secondary-container">
+<!-- Navigation -->
+<header class="fixed top-0 w-full z-50 bg-background border-b border-primary/10">
+<nav class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md tracking-tighter text-primary">
+                MAIARA LIMA
+            </div>
+<div class="flex items-center gap-6">
+<a class="font-label-md text-label-md text-primary hover:text-secondary transition-colors duration-150 active:scale-95" href="https://wa.me/5548991176446">
+                    CONTATO
+                </a>
+<button class="md:hidden" id="menu-toggle">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<main class="pt-32 pb-section-gap overflow-hidden">
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-12 items-center gap-12">
+<div class="md:col-span-7 fade-in">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary mb-4 block">Nutrição Clínica &amp; Esportiva</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-8 leading-tight">
+                    Profissionalismo e excelência em cada detalhe.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-xl">
+                    Transformamos sua saúde através de um atendimento personalizado, pautado na ciência e no rigor técnico. Resultados sólidos começam com uma estratégia impecável.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="bg-primary text-on-primary px-10 py-5 font-label-md text-label-md text-center hover:opacity-90 transition-opacity flex items-center justify-center gap-2" href="https://wa.me/5548991176446">
+                        AGENDAR CONSULTA
+                        <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="md:col-span-5 fade-in">
+<div class="relative">
+<div class="aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A professional, minimalist nutritionist's office with clean white walls, a sleek modern desk, and a large window providing soft, natural light. The atmosphere is clinical yet sophisticated, featuring high-end architectural details and a monochromatic color palette of whites and deep grays. Professional medical equipment is organized with precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHCV3l6q37_LXJ9d6Lw4DtvZzJZzLGeNrLU8jAPYXZIAOwj1CU3kAWlbZsj7c7f0CB2kmArmo9ZtshQ1b30elYhi3kkE_rbWUlJDx4csSh3fm4WaGLpyn-WJOYVb78hp_xm1UJiDX9SoTgJWGg7bHfYQdFtS-GtB_6Ey5GDPMuWEqhqOI6k6zpWaijMgen32Zn2wAe09cMiRFLrh0QkT_QyZhpshBucrOt2sFyXOATONoDquqMtOaWYndcwus6qsv5bAyBS8_Ah01V"/>
+</div>
+<div class="absolute -bottom-6 -left-6 bg-background border border-primary/10 p-6 hidden md:block">
+<p class="font-headline-md text-headline-md text-primary italic">Florianópolis, SC</p>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Atendimento Presencial &amp; Online</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- About Section -->
+<section class="py-section-gap bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-6 order-2 md:order-1 fade-in">
+<div class="aspect-square bg-surface-container-high grayscale hover:grayscale-0 transition-all duration-700">
+<img class="w-full h-full object-cover" data-alt="A high-end corporate portrait of a female nutritionist in professional clinical attire, standing in a brightly lit modern office. She has a confident and welcoming expression. The lighting is soft and high-key, emphasizing a clean, clinical, and sophisticated aesthetic consistent with a premium health service. The background is slightly blurred showing a minimalist workspace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjJfBwq9blvuVGD8KJPjhUMbZVhMjS4UMhS2VWMa3oIJksyXP-jJASJnRIt5xsLLzKXMQ5RdAHQCUYUrY97cKM0kJCYLXNEkZXqxVER0lUEMJswQ6Az8efhpikfRBaOgAJhW-7AS6H1RToguvJK0thpCW6QDw5jYJhPyOdOn2KSUfXDxnfbsjgKMo9zFwMxECVxLDr0Xka3S5btShdracFex_b9M0seeubN0lSHl_ZFZzQazU4xLC6KL1dR-aYEORkogWxr4PRxfxu"/>
+</div>
+</div>
+<div class="md:col-span-6 order-1 md:order-2 fade-in">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-8">Excelência no serviço e atendimento personalizado.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                        A Dra. Maiara Lima acredita que a nutrição não é apenas sobre restrição, mas sobre otimização. Cada plano alimentar é desenhado como uma peça de alfaiataria, respeitando a rotina, o metabolismo e os objetivos individuais de cada paciente.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">
+                        Com anos de experiência clínica e constante atualização acadêmica, nossa consultoria oferece o suporte necessário para quem busca alta performance física e longevidade, sem abrir mão da praticidade.
+                    </p>
+<div class="pt-8 border-t border-primary/10">
+<p class="font-label-md text-label-md text-primary">DRA. MAIARA LIMA</p>
+<p class="font-label-sm text-label-sm text-secondary">CRN 10 / 12345</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-section-gap">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="mb-16 fade-in">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Áreas de Atuação</h2>
+<div class="h-1 w-12 bg-primary"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-primary/10">
+<!-- Emagrecimento -->
+<div class="group p-10 border-b md:border-r border-primary/10 hover:bg-surface transition-colors duration-300 fade-in">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="monitor_weight">monitor_weight</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Emagrecimento</h3>
+<p class="font-body-md text-body-md text-secondary mb-6">Processo guiado com foco na perda de gordura preservando a massa muscular e saúde metabólica.</p>
+<ul class="space-y-3 font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+<li>• Avaliação Antropométrica</li>
+<li>• Estratégia Comportamental</li>
+<li>• Manutenção de Resultados</li>
+</ul>
+</div>
+<!-- Nutrição Esportiva -->
+<div class="group p-10 border-b md:border-r border-primary/10 hover:bg-surface transition-colors duration-300 fade-in">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="fitness_center">fitness_center</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Nutrição Esportiva</h3>
+<p class="font-body-md text-body-md text-secondary mb-6">Otimização da performance, ganho de força e recuperação acelerada para atletas e amadores.</p>
+<ul class="space-y-3 font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+<li>• Periodização Nutricional</li>
+<li>• Suplementação Estratégica</li>
+<li>• Ganho de Massa</li>
+</ul>
+</div>
+<!-- Reeducação -->
+<div class="group p-10 border-b border-primary/10 hover:bg-surface transition-colors duration-300 fade-in">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="restaurant">restaurant</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Reeducação Alimentar</h3>
+<p class="font-body-md text-body-md text-secondary mb-6">Equilíbrio e liberdade. Aprenda a se alimentar com consciência e autonomia para a vida toda.</p>
+<ul class="space-y-3 font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+<li>• Análise de Rotina</li>
+<li>• Substituições Inteligentes</li>
+<li>• Relação com a Comida</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-section-gap bg-surface-container-low">
+<div class="max-w-3xl mx-auto px-gutter">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-12 text-center fade-in">Perguntas Frequentes</h2>
+<div class="space-y-2">
+<!-- FAQ Item 1 -->
+<div class="border-b border-primary/10 fade-in">
+<button class="faq-trigger w-full flex justify-between items-center py-6 text-left hover:text-primary transition-colors">
+<span class="font-headline-md text-headline-md">Como funciona a primeira consulta?</span>
+<span class="material-symbols-outlined faq-icon transition-transform" data-icon="expand_more">expand_more</span>
+</button>
+<div class="faq-content hidden pb-8 pr-12">
+<p class="font-body-md text-body-md text-secondary">Realizamos uma anamnese completa: histórico de saúde, rotina, exames laboratoriais e bioimpedância. A partir disso, traçamos seus objetivos reais.</p>
+</div>
+</div>
+<!-- FAQ Item 2 -->
+<div class="border-b border-primary/10 fade-in">
+<button class="faq-trigger w-full flex justify-between items-center py-6 text-left hover:text-primary transition-colors">
+<span class="font-headline-md text-headline-md">Você atende planos de saúde?</span>
+<span class="material-symbols-outlined faq-icon transition-transform" data-icon="expand_more">expand_more</span>
+</button>
+<div class="faq-content hidden pb-8 pr-12">
+<p class="font-body-md text-body-md text-secondary">Atuamos no modelo particular, o que nos permite um tempo de consulta estendido e maior personalização. Emitimos nota fiscal para solicitação de reembolso.</p>
+</div>
+</div>
+<!-- FAQ Item 3 -->
+<div class="border-b border-primary/10 fade-in">
+<button class="faq-trigger w-full flex justify-between items-center py-6 text-left hover:text-primary transition-colors">
+<span class="font-headline-md text-headline-md">Os planos são online ou presenciais?</span>
+<span class="material-symbols-outlined faq-icon transition-transform" data-icon="expand_more">expand_more</span>
+</button>
+<div class="faq-content hidden pb-8 pr-12">
+<p class="font-body-md text-body-md text-secondary">Oferecemos ambas as modalidades. O atendimento online possui a mesma profundidade e rigor técnico do presencial.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-section-gap border-t border-primary/10 bg-background">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 space-y-8 md:space-y-0">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary mb-2">MAIARA LIMA</h2>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Consultoria Nutricional Premium</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-8">
+<div class="space-y-2">
+<p class="font-label-md text-label-md text-primary">CONTATO</p>
+<a class="font-body-md text-body-md text-secondary hover:text-primary block" href="tel:48991176446">(48) 99117-6446</a>
+<p class="font-body-md text-body-md text-secondary">Florianópolis, SC</p>
+</div>
+<div class="space-y-2">
+<p class="font-label-md text-label-md text-primary">REDES</p>
+<a class="font-body-md text-body-md text-secondary hover:text-primary block" href="#">Instagram</a>
+<a class="font-body-md text-body-md text-secondary hover:text-primary block" href="#">LinkedIn</a>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-primary/5 space-y-4 md:space-y-0">
+<p class="font-label-sm text-label-sm text-secondary opacity-60">
+                    © 2024 Consultoria Nutricional Premium. Todos os direitos reservados.
+                </p>
+<div class="flex gap-6">
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary transition-colors" href="#">Termos de Uso</a>
+<a class="font-label-sm text-label-sm text-secondary hover:text-primary transition-colors" href="#">Privacidade</a>
+<a class="font-label-sm text-label-sm text-primary underline transition-colors" href="https://wa.me/5548991176446">WhatsApp</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- FAB -->
+<a class="fixed bottom-8 right-8 bg-[#111111] text-white p-4 shadow-2xl flex items-center justify-center hover:scale-105 transition-transform active:scale-95 z-40 group" href="https://wa.me/5548991176446">
+<span class="material-symbols-outlined mr-2" data-icon="chat">chat</span>
+<span class="font-label-md text-label-md">Agendar via WhatsApp</span>
+</a>
+<!-- Scripts -->
+<script>
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-trigger').forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const content = trigger.nextElementSibling;
+                const icon = trigger.querySelector('.faq-icon');
+                
+                // Toggle current
+                const isOpen = !content.classList.contains('hidden');
+                
+                // Close others
+                document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+                document.querySelectorAll('.faq-icon').forEach(i => i.style.transform = 'rotate(0deg)');
+                
+                if (!isOpen) {
+                    content.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Simple Mobile Menu (Header logic)
+        const menuBtn = document.getElementById('menu-toggle');
+        menuBtn.addEventListener('click', () => {
+            alert('Consultoria Maiara Lima: (48) 99117-6446');
+        });
+    </script>
+</body></html>
